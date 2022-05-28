@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Português - Multiplas Inteligências</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Qual a distância Helena vai percorrer a cavalo pela estrada da Tijuca?</h1>
+    <div class="tudo">
+        <input type="number" placeholder="Quantas voltas Helena deu na Casa da Bandeira?" name="voltas" id="voltas">
+        <input type="text" name="distancia" id="distancia" disabled="" placeholder="Distância percorrida">
+        <input type="text" name="paradas" id="paradas" disabled="" placeholder="Paradas">
+        <button onclick="calcula()" id="btn">Calcular!</button>
+        <button onclick="reseta()" id="reset"><a href="/index.html">Resetar</a></button>
+    </div>
+    <p id="utiliza">Utilizamos como base que cada volta na Casa da Bandeira é igual a <b>2 KM</b> e a cada 2 voltas ela dá uma parada.</p>
+    <p id="criadores">Esse site foi criado pelos alunos: <b>Gustavo Penido</b> e <b>Lucas Alexandre</b></p>
+
+    <script src="/calcula.js"></script>
+</body>
+
+</html>
