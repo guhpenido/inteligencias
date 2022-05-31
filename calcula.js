@@ -15,5 +15,5 @@ function calcula() {
 };
 
 function reseta() {
-    window.location.replace("/index.html");
+    window.location.replace("https://guhpenido.github.io/inteligencias/");
 }
